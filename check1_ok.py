@@ -20,10 +20,8 @@ print ("_-__-__-__-__-__-__-__-__-__-__-__-_")
 
 meuemail = input("\n Digite seu e-mail: ")
 
-if vaz == meuemail:
-    print(meuemail)
-    print("E-mail vazado, vai dar ruim!")
-else:
-    print("Fique em paz!")
-
-
+for elemento in vaz:
+    if elemento == meuemail:
+        print("E-mail vazado, vai dar ruim!")
+    else:
+        print("Fique em paz!")
